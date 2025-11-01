@@ -21,7 +21,6 @@ body {
   padding-top: 50px;
 }
 
-
 .todoContainer {
   width: 400px;
   background-color: white;
@@ -30,7 +29,6 @@ body {
   padding: 20px 0;
 }
 
-
 h1 {
   text-align: center;
   font-size: 70px;
@@ -38,7 +36,6 @@ h1 {
   margin-bottom: 30px;
   font-weight: 200;
 }
-
 
 .todoInput {
   width: 90%;
@@ -51,18 +48,15 @@ h1 {
   outline: none;
 }
 
-
 .todoInput::placeholder {
   color: #ccc;
 }
-
 
 .todoList {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 
 .todoItem {
   font-size: 18px;
@@ -73,11 +67,9 @@ h1 {
   transition: background-color 0.3s;
 }
 
-
 .todoItem:hover {
   background-color: #fafafa;
 }
-
 
 .deleteButton {
   display: none;
@@ -89,11 +81,9 @@ h1 {
   cursor: pointer;
 }
 
-
 .todoItem:hover .deleteButton {
   display: inline;
 }
-
 
 .noTareas {
   text-align: center;
@@ -102,7 +92,6 @@ h1 {
   padding: 20px 0;
 }
 
-
 .footer {
   text-align: left;
   font-size: 12px;
@@ -110,3 +99,18 @@ h1 {
   padding: 10px 20px;
 }
 
+.buttonClearAll {
+  display: block;
+  margin: 15px auto 0 auto;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.buttonClearAll:hover {
+  background-color: #e2e2e2;
+}
